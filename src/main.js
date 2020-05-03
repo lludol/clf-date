@@ -14,12 +14,12 @@ function numberToString(n) {
  * @return {String} The offset.
  */
 function getCLFOffset(date) {
-	const tzoffset    = date.getTimezoneOffset();
+	const tzoffset = date.getTimezoneOffset();
 	const abstzoffset = Math.abs(tzoffset);
-	const op		  = tzoffset > 0 ? '-' : '+'; // TimezoneOffset is set as subtraction from localtime to UTC,
-                                                  //    on the other hand time in CLF is shown as subtraction from UTC to localtime.
+	const op = tzoffset > 0 ? '-' : '+'; // TimezoneOffset is set as subtraction from localtime to UTC,
+	//    on the other hand time in CLF is shown as subtraction from UTC to localtime.
 	const hour = numberToString(Math.floor(abstzoffset / 60));
-	const min  = numberToString(abstzoffset % 60);
+	const min = numberToString(abstzoffset % 60);
 	return `${op}${hour}${min}`;
 }
 
@@ -33,15 +33,15 @@ module.exports = function (now = new Date()) {
 		'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
 	];
 
-	const day		= numberToString(now.getDate());
-	const month		= MONTHS[now.getMonth()];
-	const year		= now.getFullYear();
+	const day = numberToString(now.getDate());
+	const month = MONTHS[now.getMonth()];
+	const year = now.getFullYear();
 
-	const hours		= numberToString(now.getHours());
-	const minutes	= numberToString(now.getMinutes());
-	const seconds	= numberToString(now.getSeconds());
+	const hours = numberToString(now.getHours());
+	const minutes = numberToString(now.getMinutes());
+	const seconds = numberToString(now.getSeconds());
 
-	const offset	= getCLFOffset(now);
+	const offset = getCLFOffset(now);
 
 	return `${day}/${month}/${year}:${hours}:${minutes}:${seconds} ${offset}`;
 };
