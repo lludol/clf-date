@@ -1,6 +1,6 @@
 # clf-date
 [![dev-dependencies status](https://david-dm.org/lludol/clf-date/dev-status.svg)](https://david-dm.org/lludol/clf-date#info=devDependencies)
-[![Build Status](https://travis-ci.org/lludol/clf-date.svg?branch=master)](https://travis-ci.org/lludol/clf-date)
+![Node.js CI](https://github.com/lludol/clf-date/workflows/Node.js%20CI/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/lludol/clf-date/badge.svg?branch=master)](https://coveralls.io/github/lludol/clf-date?branch=master)
 [![Code Climate](https://codeclimate.com/github/lludol/clf-date/badges/gpa.svg)](https://codeclimate.com/github/lludol/clf-date)
 [![npm version](https://badge.fury.io/js/clf-date.svg)](https://badge.fury.io/js/clf-date)
