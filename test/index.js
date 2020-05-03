@@ -1,5 +1,5 @@
-const expect	= require('chai').expect;
-const clfDate	= require('../out/main.js');
+const { expect } = require('chai');
+const clfDate = require('../out/main.js');
 
 describe('clf-date', () => {
 	describe('without parameter', () => {
@@ -11,7 +11,7 @@ describe('clf-date', () => {
 	describe('with parameter (the current Date)', () => {
 		it('return the current Date in clf format', (done) => {
 			const customDate = new Date('2042-01-02T23:42:00');
-			expect(clfDate(customDate)).match(/02\/Jan\/2042:23:42:00 [+-]\d{4}/);
+			expect(clfDate(customDate)).match(/02\/Jan\/2042:\d{2}:42:00 [+-]\d{4}/);
 			done();
 		});
 	});

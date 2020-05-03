@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const clfDate	= require('../out/main.js');
+const clfDate = require('../src/main.js');
 
-const argv		= process.argv;
+const { argv } = process.argv;
 
 if (argv.length > 2) {
 	console.log(clfDate(new Date(Date.parse(argv[2]))));
