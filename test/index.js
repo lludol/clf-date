@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const clfDate = require('../src/main.js');
+const clfDate = require('../src/main');
 
 describe('clf-date', () => {
 	describe('without parameter', () => {

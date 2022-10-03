@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const clfDate = require('../src/main.js');
+const clfDate = require('../src/main');
 
 const { argv } = process.argv;
 
