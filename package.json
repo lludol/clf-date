@@ -36,7 +36,7 @@
     "@guivic/eslint-config-guivic": "^0.3.0",
     "chai": "^4.2.0",
     "coveralls": "^3.1.0",
-    "eslint": "^8.0.0",
+    "eslint": "^8.24.0",
     "istanbul": "^0.4.5",
     "mocha": "^10.0.0",
     "mocha-lcov-reporter": "^1.3.0"
