@@ -3,7 +3,7 @@
 		"node": true,
 		"mocha": true
 	},
-	"extends": "@guivic/eslint-config-guivic",
+	"extends": "eslint-config-lludol",
 	"rules": {
 		"no-console": "off"
 	}
