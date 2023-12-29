@@ -32,7 +32,7 @@
   "author": "lludol",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^5.0.0",
     "eslint": "^8.24.0",
     "eslint-config-lludol": "^0.2.0",
     "mocha": "^10.0.0",
