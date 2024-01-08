@@ -1,8 +1,6 @@
 # clf-date
 ![Node.js CI](https://github.com/lludol/clf-date/workflows/Node.js%20CI/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/lludol/clf-date/badge.svg?branch=master)](https://coveralls.io/github/lludol/clf-date?branch=master)
 [![Code Climate](https://codeclimate.com/github/lludol/clf-date/badges/gpa.svg)](https://codeclimate.com/github/lludol/clf-date)
-[![npm version](https://badge.fury.io/js/clf-date.svg)](https://badge.fury.io/js/clf-date)
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
